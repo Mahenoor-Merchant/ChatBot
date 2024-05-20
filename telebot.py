@@ -72,4 +72,4 @@ async def chatgpt(message: types.Message):
         await message.reply("Sorry, something went wrong. Please try again later.")
 
 if __name__ == "__main__":
-    executor.start_polling(dispatcher, skip_updates=True)
+    executor.start_polling(dispatcher, skip_updates=False)
